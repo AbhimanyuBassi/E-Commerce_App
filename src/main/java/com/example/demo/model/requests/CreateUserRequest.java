@@ -21,12 +21,12 @@ public class CreateUserRequest {
 		this.username = username;
 	}
 
-	public String getPassword() {
-		return password;
-	}
-
 	public void setPassword(String password) {
 		this.password = password;
+	}
+
+	public String getPassword() {
+		return password;
 	}
 
 	public String getConfirmPassword() {
